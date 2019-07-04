@@ -17,15 +17,23 @@ void loop() {
       number=Serial.read();
       if(number>>0&1){
           digitalWrite(pinA,HIGH);
+        }else{
+          digtialWrite(pinA,LOW);
         }
       if(number>>1&1){
           digitalWrite(pinB,HIGH);
+        }else{
+          digitalWrite(pinB,LOW);
         }
        if(number>>2&1){
           digitalWrite(pinC,HIGH);
+        }else{
+          digitalWrite(pinC,LOW);
         }
        if(number>>3&1){
           digitalWrite(pinD,HIGH);
+        }else{
+          digitalWrite(pinD,LOW);
         }
        digitalWrite(pinLE,HIGH);
     }
