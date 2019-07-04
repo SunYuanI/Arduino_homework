@@ -13,6 +13,7 @@ void setup() {
   pinMode(pinledl,OUTPUT);
   pinMode(pinledr,OUTPUT);
   pinMode(pinledb,OUTPUT);
+  Serial.begin(9600);
 }
 int dir;
 void loop() {
