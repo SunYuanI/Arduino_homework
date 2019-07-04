@@ -9,6 +9,7 @@ void setup() {
   pinMode(pinC,OUTPUT);
   pinMode(pinD,OUTPUT);
   pinMode(pinLE,OUTPUT);
+  Serial.begin(9600);
 }
 int number;
 void loop() {
